@@ -446,11 +446,13 @@ a.active,a:hover{
    width: 50%;
  }
  .info-title{
+   color: black;
    font-size: 1.8em;
    margin-bottom: 10px;
  }
  
  .info{
+   color: black;
    font-size: 25px;
    width: 100%;
    padding-right: 0px;
@@ -856,6 +858,11 @@ header h1{
 /*****************************
     COURSES
 ******************************/
+#front{
+   height: auto;
+   width:700px;
+   margin-bottom: 30px;
+}
 #spacing{
    padding: 120px 0;
    margin-left: 30px;
@@ -912,16 +919,21 @@ color:black
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
+.spacer{
+   margin: 20px;
+   padding: 20px;
+}
 .courses2 H1{
-   font-size: 80px;
+   font-size: 50px;
+   margin-bottom: 30px;
 }
 .courses2 p{
-   padding: 30px 200px;
-   font-size: 25px;
+   margin: 0 auto;
+   font-size: 20px;
    font-weight: bolder;
    text-align: center;
    color: white;
-   margin: 0 50px 80px;
+   width: 55%;
 }
 #CS, #BSE, #BEE,#BA{
    padding-top:30px;
@@ -1045,19 +1057,20 @@ form .txt_field{
    text-align: center;
 }
 .b{
-   padding: 35px 50px;
-   font-size: 70px;
+   padding: 35px 60px;
+   font-size: 50px;
    color: black;
    font-weight: bolder;
 }
 .e{
+   font-size: 60px;
    font-weight: bolder;
    padding: 35px 50px;
-   font-size: 80px;
    color: white;
 }
 .picenroll{
-   height:800px;
+   height: auto;
+   width:600px;
 }
 @media (max-width: 858px){
    .b, h1{
