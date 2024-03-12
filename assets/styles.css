@@ -760,7 +760,7 @@ header h1{
    pointer-events: none;
 }
 .form .contact-form textarea{
-   width: ;
+   width: 100px;
    border: 0px;
    background-color: transparent;
    margin: 20px;
