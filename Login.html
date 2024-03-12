@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://kit.fontawesome.com/5f5eda5dd3.js" crossorigin="anonymous"></script>
+</head>
+<body id="wall">
+    <div class="container">
+        <div class="navbar">
+            <img src="assets/images/300logo.png" class="logo">
+            <a href="home.html"><img src="assets/images/Qeci.png" class="logo2" ></a>
+            <nav>
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <input type ="checkbox" id="check">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="enroll.html">HOW TO ENROLL</a></li>
+                    <li><a href="e-library.html">E-LIBRARY</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a class="activ" href="login.html">LogIn</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+<div class="login">
+    <form action="" method="post"> 
+      <h1><img src="assets/images/300logo.png" ><br>Admin LogIn</h1>
+       <div class="txt_field">
+          <input type="text" name="username" required placeholder="Username">
+        </div>
+       <div class="pass">
+         <input type="password" name="password" id="myInput" placeholder="Password">
+         <span id="lbl"><input type="checkbox" onclick="myFunction()" id="ckbx">Show Password</span>
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myInput");   
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+              }
+            }
+            </script>
+        </div>
+        <span id="lbl2"><input type="checkbox"  id="ckbx2">Remember Me</span>
+        <input type="submit" value="LOGIN" id="btn">
+</form>
+</div>    
+</body> 
+<footer>
+  Property of Quezonian Educational College Inc. Copyright 2022 &copy;
+</footer>
+</html>
